@@ -17,12 +17,14 @@ function ativarkamehameha(){
 
 function ativar(){
     resetar1 = document.getElementById("resetar").style.visibility = "hidden"
+    kamehamehacharge = document.getElementById("kamehamehacharge").style.visibility = "hidden"
+    kamehamehacharge1 = document.getElementById("kamehamehacharge1").style.visibility = "visible"
     kamehameha = document.getElementById("kamehameha")
     kamehameha.play()
     kamehameha.currentTime = 0;
     setTimeout(() => {
         gokucarregando1 = document.getElementById("gokucarregando1").style.visibility = "hidden"
-        kamehamehacharge = document.getElementById("kamehamehacharge").style.visibility = "hidden"
+        kamehamehacharge1 = document.getElementById("kamehamehacharge1").style.visibility = "hidden"
         gokukamehameha = document.getElementById("gokukamehameha").style.visibility = "visible"
         kamehameha1 = document.querySelector(".kamehameha1")
         kamehameha1.style.visibility = "visible"

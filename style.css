@@ -2,6 +2,9 @@ body{
     background-image: url("cenariobrabo.gif");
     background-size: cover;
     overflow: hidden;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-repeat: no-repeat;
 }
 
 
@@ -9,7 +12,8 @@ body{
     z-index: -10;
     position: absolute;
     font-size: 25px;
-    margin: 10px 40vw;
+    margin: 10px 32.5vw;
+    min-width: 100vw;
 }
 
 #resetar{
@@ -69,7 +73,20 @@ body{
     visibility: hidden;
 
 }
+
+#kamehamehacharge1{
+    position: absolute;
+    width: 50px;
+    margin: 337px 150px;
+    visibility: hidden;
+
+}
     
+#kamehamehacharge1:hover{
+    transition: 200ms;
+    transform: scale(2.5);
+}
+
 #kamehamehacharge:hover{
     transition: 200ms;
     transform: scale(2.5);
